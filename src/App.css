@@ -1,0 +1,38 @@
+.login-page{
+  background-image: url('https://media.istockphoto.com/id/173557068/photo/consultant-office-building.jpg?s=612x612&w=0&k=20&c=81jF5rKIk23FmoR7CK4oPdRR2cyFCn_SjDKsgrBad74=');
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-position: center;
+  background-size:cover;
+  /* background-size: cover; */
+}
+.forgot-password{
+  background-image: url('https://media.istockphoto.com/id/173557068/photo/consultant-office-building.jpg?s=612x612&w=0&k=20&c=81jF5rKIk23FmoR7CK4oPdRR2cyFCn_SjDKsgrBad74=');
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-position: center;
+  background-size:cover;
+}
+
+fieldset {
+  border: 1px solid #000;
+}
+input{
+  text-align: center;
+}
+/* .head-button:hover{
+background-color: purple;
+} */
+
+/* customerid table data */
+.tabledaatboking{
+  overflow-x: scroll;
+}
+.samplepage{
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+
+}
