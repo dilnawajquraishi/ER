@@ -56,10 +56,11 @@ const AddNeworder = () => {
   
  
 </div>
+
 {/* second-col */}
+
 <div className=' w-96 sub-div ms-2 mt-4 flex flex-col gap-5'> 
 
-{/* order No */}
 <div className='w-auto h-15  bg-white   flex flex-row ' style={{border:"1px solid grey"}}>
   <input type='  number' placeholder=' Prepared By' className='w-80 h-10'  style={{outline:"none"}}/>
   </div>

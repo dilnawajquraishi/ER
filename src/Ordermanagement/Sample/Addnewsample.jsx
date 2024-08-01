@@ -31,7 +31,7 @@ const Samplelist = () => {
       </div>
       <hr className='bg-slate-700  w-75 mt-3' />
      
-      <div className='form  flex bg-red-300 flex-row gap-4 mt-5 ms-4' style={{width:"74rem"}}>
+      <div className='form  flex flex-row gap-4 mt-5 ms-4' style={{width:"74rem"}}>
 
         <select className="select pl-1 h-11 " style={{ border: "1px solid  grey", outline: "none", borderRadius: "5px" ,width:"37rem"}}>
           <option selected>Select a Order
@@ -42,11 +42,16 @@ const Samplelist = () => {
           <option >0000001  </option>
 
         </select>
-        {/* </div> */}
 
         <input type='text' className=' h-11 font-bold' placeholder='Enter Consignee' style={{ border: "1px solid grey", borderRadius: "5px",width:"37rem" }} />
       
       </div>
+   
+      <div className=' w-96 mt-3 flex flex-row gap-3 ms-96  '>
+    <button className=' btn btn-join w-48 h-11 bg-white' style={{borderRadius:"5px",border:"1px solid black"}}>Cancel</button>
+    <button className='w-48 h-11 text-white bg-purple-500' style={{borderRadius:"5px"}}>Save</button>
+
+</div>
    
     </div>
   )
