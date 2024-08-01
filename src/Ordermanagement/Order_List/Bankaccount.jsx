@@ -35,7 +35,7 @@ Withdraw
 </div>
       </div>
       <hr className='bg-slate-700  ms-3 w-75 mt-3'/>
-      <table class="table mt-5 w-75 ms-3 mt-6" style={{border:"2px solid grey"}}>
+      <table class="table  w-75 ms-3 mt-6" style={{border:"2px solid grey"}}>
   <thead>
     <tr className='' >
       <th scope="col">SL.</th>

@@ -1,13 +1,12 @@
 import React from 'react'
-
-const Buyer = () => {
+const Supplierlist = () => {
   return (
     <div className='w-75 bg-white' style={{height:"100vh"}}>
             <div className='w-auto pt-4 mt-10 h-10 flex flex-row justify-between '> 
-<h1 className='fw-bold'>Add New Order</h1>
+<h1 className='fw-bold' style={{fontSize:"20px"}}>Supplier List</h1>
 <div className='sub-div w-80 h-10'>
 <button className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Shipment List</button>
-<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Buyer List</button>
+<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Add New Supplier </button>
 
 </div>
       </div>
@@ -15,7 +14,7 @@ const Buyer = () => {
       
       <div className=' w-auto doller-container flex flex-row gap-5 mt-5 ms-3'>
 <div className='w-60 bg-black h-20  doller-buyer pl-14 pt-3' style={{borderRadius:"1rem"}} >
-  <span className='text-orange-400' style={{fontSize:"22px",fontWeight:"bold"}}>$110,000.00
+  <span className='text-orange-400' style={{fontSize:"22px",fontWeight:"bold"}}>$2,664.00
   </span><br/>
   <span className='text-orange-400 pl-1 ' style={{fontWeight:"bold"}} >
   Total Bill
@@ -25,7 +24,7 @@ const Buyer = () => {
 
 {/* second-box */}
 <div className='w-60 bg-black h-20  doller-buyer pl-9 pt-3' style={{borderRadius:"1rem"}} >
-  <span className='text-orange-400' style={{fontSize:"22px",fontWeight:"bold"}}>$10,000.00
+  <span className='text-orange-400' style={{fontSize:"22px",fontWeight:"bold"}}>$0.00
   </span><br/>
   <span className='text-orange-400 ' style={{fontWeight:"bold"}} >
  Advance Amount
@@ -36,15 +35,15 @@ const Buyer = () => {
 <div className='w-60 bg-white h-20  doller-buyer pl-12 pt-3' style={{borderRadius:"1rem"}} >
   <span className='' style={{fontSize:"22px",fontWeight:"bold"}}>$0.00
   </span><br/>
-  <span className='text-gray-500 pr-4' style={{fontWeight:"bold"}} >
+  <span className='text-orange-400 pr-4' style={{fontWeight:"bold"}} >
 Pay Amount
   </span>
 </div>
 <div className='w-60 bg-green-300 h-20  doller-buyer pl-9 pt-3' style={{borderRadius:"1rem"}} >
-  <span className='' style={{fontSize:"22px",fontWeight:"bold"}}>$10,000.00
+  <span className='pl-5' style={{fontSize:"22px",fontWeight:"bold"}}>$2,664.00
   </span><br/>
-  <span className='text-gray-500 ' style={{fontWeight:"bold"}} >
- Advance Amount
+  <span className='text-orange-400  pl-5' style={{fontWeight:"bold"}} >
+ Due Amount
 
   </span>
 </div>
@@ -54,11 +53,12 @@ Pay Amount
       <div className='form w-100    flex fle-row gap-6 pl-3 mt-20'>
       <div className='w-80 h-10 bg-black   flex flex-row ' style={{borderRadius:"10px"}}>
 <select className="select h-11 w-80 p-2 pl-3 "style={{border:"1px solid  grey",outline:"none",borderRadius:"10px" }}>
-    <option selected>Transfer Type
+    <option selected>All Result
     </option>
-    <option>-Select Bank-</option>
-    <option >j(565757)</option>
-</select>
+    <option>Per Page-30</option>
+    <option>Per Page-50</option>
+    <option>Per Page-100</option>
+    </select>
 </div>
 <input type='text' className='w-80 h-11 font-bold' placeholder='Search...' style={{ border: "1px solid grey", borderRadius: "10px" }} />
 
@@ -69,18 +69,16 @@ Pay Amount
   <thead>
     <tr className='bg-slate-300' style={{border:"2px solid grey"}}>
       <th scope="col">SL.</th>
-      <th scope="col">Order No.</th>
-      <th scope="col">Booking Date</th>
-      <th scope="col">Order Image</th>
-      <th scope="col">Type</th>
-      <th scope="col">Composition</th>
-      <th scope="col">Process Loss</th>
-      <th scope="col">Order Fabric</th>
-      <th scope="col">Rib</th>
-      <th scope="col">Collar</th>
-      <th scope="col">Prepared By</th>
-      <th scope="col">Status</th>
+      <th scope="col">Party Name</th>
+      <th scope="col"> Phone Number</th>
+      <th scope="col">Country</th>
+      <th scope="col">Advance Amount</th>
+      <th scope="col">Pay Amount</th>
+      <th scope="col">Due Amount</th>
+      <th scope="col">Balance</th>
+      <th scope="col">Remarks</th>
       <th scope="col">Action</th>
+     
 
 
 
@@ -107,4 +105,4 @@ Pay Amount
   )
 }
 
-export default Buyer
+export default Supplierlist

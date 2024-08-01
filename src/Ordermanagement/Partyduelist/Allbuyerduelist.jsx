@@ -1,13 +1,15 @@
 import React from 'react'
 
-const Buyer = () => {
+const Allbuyerduelist = () => {
   return (
     <div className='w-75 bg-white' style={{height:"100vh"}}>
             <div className='w-auto pt-4 mt-10 h-10 flex flex-row justify-between '> 
-<h1 className='fw-bold'>Add New Order</h1>
-<div className='sub-div w-80 h-10'>
-<button className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Shipment List</button>
-<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Buyer List</button>
+<h1 className='fw-bold'>Add Buyer Due List</h1>
+<div className='sub-div w-auto h-10'>
+<button className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Buyer List</button>
+<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Supplier List</button>
+<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit Voucher</button>
+<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}> Debit Voucher </button>
 
 </div>
       </div>
@@ -41,12 +43,13 @@ Pay Amount
   </span>
 </div>
 <div className='w-60 bg-green-300 h-20  doller-buyer pl-9 pt-3' style={{borderRadius:"1rem"}} >
-  <span className='' style={{fontSize:"22px",fontWeight:"bold"}}>$10,000.00
+  <span className='' style={{fontSize:"22px",fontWeight:"bold"}}>$111,000.00
   </span><br/>
   <span className='text-gray-500 ' style={{fontWeight:"bold"}} >
- Advance Amount
+  Due Amount
 
   </span>
+  
 </div>
 
       </div>
@@ -57,7 +60,10 @@ Pay Amount
     <option selected>Transfer Type
     </option>
     <option>-Select Bank-</option>
-    <option >j(565757)</option>
+    <option >Per Page-10</option>
+    <option >Per Page-30</option>
+    <option >Per Page-50</option>
+    <option >Per Page-100</option>
 </select>
 </div>
 <input type='text' className='w-80 h-11 font-bold' placeholder='Search...' style={{ border: "1px solid grey", borderRadius: "10px" }} />
@@ -70,21 +76,13 @@ Pay Amount
     <tr className='bg-slate-300' style={{border:"2px solid grey"}}>
       <th scope="col">SL.</th>
       <th scope="col">Order No.</th>
-      <th scope="col">Booking Date</th>
-      <th scope="col">Order Image</th>
-      <th scope="col">Type</th>
-      <th scope="col">Composition</th>
-      <th scope="col">Process Loss</th>
-      <th scope="col">Order Fabric</th>
-      <th scope="col">Rib</th>
-      <th scope="col">Collar</th>
-      <th scope="col">Prepared By</th>
-      <th scope="col">Status</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Total Bill</th>
+      <th scope="col">Advance Amount</th>
+      <th scope="col">Pay Amount</th>
+      <th scope="col">Due Amount</th>
+      <th scope="col">Remarks</th>
       <th scope="col">Action</th>
-
-
-
-
     </tr>
   </thead>
   <tbody>
@@ -107,4 +105,4 @@ Pay Amount
   )
 }
 
-export default Buyer
+export default Allbuyerduelist

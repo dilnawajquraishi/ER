@@ -20,6 +20,16 @@ import Costinglist from './Ordermanagement/Costing/Costinglist';
 import Bankaccount from './Ordermanagement/Order_List/Bankaccount';
 import Addnewbankaccount from './Ordermanagement/Bankaccount/Addnewbankaccount'
 import Withdraw from './Ordermanagement/Bankaccount/Withdraw';
+import Buyer from './Ordermanagement/PartyList/Buyer';
+import Addbuyer from './Ordermanagement/PartyList/Addbuyer';
+import Supplierlist from './Ordermanagement/PartyList/Supplierlist';
+import Allbuyerduelist from './Ordermanagement/Partyduelist/Allbuyerduelist';
+import Duesupplierlist from './Ordermanagement/Partyduelist/Duesupplierlist';
+import Creditvoucher from './Ordermanagement/Partyduelist/Creditvoucher';
+import Createcredit from './Ordermanagement/Partyduelist/Createcredit';
+import Createaddbuyer from './Ordermanagement/Partyduelist/Createaddbuyer';
+import Incomelist from './Ordermanagement/Partyduelist/Incomelist';
+import Addnewincomecategory from './Ordermanagement/Partyduelist/Adddnewincomecategory';
 function App() {
   return (
     <div className="App">
@@ -47,6 +57,27 @@ function App() {
         <Route path='/bankaccount' element={<Bankaccount/>}  />     
          <Route path='/addnewbankaccount' element={<Addnewbankaccount/>}  />
          <Route path='/withrdraw' element={<Withdraw/>}  />
+         <Route path='/buyer' element={<Buyer/>}  />
+         <Route path='/addbuyer' element={<Addbuyer/>}  />
+         <Route path='/supplierlist' element={<Supplierlist/>} />
+         <Route path='/allbuyerduelist' element={<Allbuyerduelist/>} />
+         <Route path='/duesupplierlist' element={<Duesupplierlist/>} />
+         <Route path='/creditvoucher' element={<Creditvoucher/>} />
+         <Route path='/cretecredit' element={<Createcredit/>} />
+         <Route path='/createaddbuyer' element={<Createaddbuyer/>} />
+         <Route path='/incomelist' element={<Incomelist/>} />
+         <Route path='/incomecategory' element={<Addnewincomecategory/>} />
+
+
+
+
+         Incomelist
+
+
+
+
+         
+
 
 
 

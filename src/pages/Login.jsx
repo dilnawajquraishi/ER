@@ -33,7 +33,7 @@ const Login = () => {
   <div className="mb-3   mt-3 w-auto d-flex  form-check">
   <input type="checkbox" className="form-check-input" id="exampleCheck1" />
 
-  <label className="form-check-label ms-2" htmlFor="exampleCheck1 ">Remind me </label>
+  {/* <label className="form-check-label ms-2" htmlFor="exampleCheck1 ">Remind me </label> */}
   {/* <Link to='/forgot'> */}
   <p type="submit" className="ms-auto "><Link to='/forgot'>Forgot Password?</Link></p>
 

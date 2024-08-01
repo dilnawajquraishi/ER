@@ -3,7 +3,7 @@ import { FaCamera } from "react-icons/fa";
 
 const Addparty = () => {
     return (
-        <div className='w-75  ' style={{ height: "100%" }}>
+        <div className='w-75  ' style={{ height: "80%" }}>
             <div className='w-auto mt-3 h-10 flex flex-row justify-between '>
                 <h4 className='fw-bold'>Add  Party</h4>
                 <div className='sub-div w-auto h-10 ' style={{ border: "2px solid purple", borderLeft: "none", borderRight: "none", borderTop: "none" }}>
@@ -21,11 +21,11 @@ const Addparty = () => {
                 {/* main div */}
                 <div className=' w-96 sub-div  mt-4 flex flex-col gap-5'>
                 <div className='w-auto h-15  bg-white   flex flex-row ' style={{ border: "1px solid grey" }}>
-                        <input type='text me-3' placeholder='Enter Party Name' className='w-80 h-10' style={{ outline: "none" }} />
+                        <input type='text ' placeholder='Enter Party Name' className='w-80 h-10' style={{ outline: "none" }} />
                     </div>
                     <div className='w-auto h-15  bg-white   flex flex-row ' style={{ border: "1px solid grey" }}>
                         <label className='w-32 bg-white ms-5 mt-1 text-gray-400 pt-2' style={{ fontSize: "13px",outline:"none" }}>Contact Date</label>
-                        <select className="select h-11 w-80 " style={{ border: "1px solid  grey",outline:"none",borderLeft:"none"}}>
+                        <select className="select h-11 w-80 " style={{outline:"none",borderLeft:"none"}}>
                             <option selected>Select Party Category
                             </option>
                             <option>Buyer</option>
@@ -126,7 +126,7 @@ const Addparty = () => {
 
             </div>
 
-            <div className=' w-96 mt-3 flex flex-row gap-3 ms-96  '>
+            <div className=' w-96 mt-44 flex flex-row gap-3 ms-96  '>
                 <button className=' btn btn-join w-48 h-11 bg-white' style={{ borderRadius: "5px", border: "1px solid black" }}>Reset</button>
                 <button className='w-48 h-11 text-white bg-purple-500' style={{ borderRadius: "5px" }}>Save</button>
 

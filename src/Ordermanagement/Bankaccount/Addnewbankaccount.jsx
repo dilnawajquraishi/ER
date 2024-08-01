@@ -19,17 +19,14 @@ const Addnewbankaccount = () => {
   </div>  <div className='w-auto h-15  bg-white   flex flex-row ' style={{border:"1px solid grey"}}>
   <input type='  number' placeholder='Routing/Swift Number' className='w-80 h-10'  style={{outline:"none"}}/>
   </div>  
-  {/* <div className='w-auto h-15  bg-white   flex flex-row ' style={{border:"1px solid grey"}}>
-  <input type='  number' placeholder='Enter Shipment Mode' className='w-80 h-10'  style={{outline:"none"}}/>
-  </div> */}
+
 </div>
 
 
 {/* Right-side input */}
 
 <div className="col-lg-6 mt-2 w-96 flex flex-col gap-10  ">
-        {/* <div className='w-80 bg-white first-container'></div> */}
-  {/* <input type="text" required name="bank_name" className="form-control" placeholder="Enter Bank Name" />  */}
+       
   <div className='w-auto h-15  bg-white   flex flex-row ' style={{border:"1px solid grey"}}>
   <input type='  number' placeholder='Bank Name' className='w-80 h-10'  style={{outline:"none"}}/>
   </div>
