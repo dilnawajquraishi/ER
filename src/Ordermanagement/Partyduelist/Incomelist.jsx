@@ -7,7 +7,7 @@ const Incomelist = () => {
 <h1 className='fw-bold' style={{fontSize:"20px"}}>Income List
 </h1>
 <div className='sub-div w-96 flex flex-row h-10'>
-<Link  to='/Incomelist' className='w-32  pl-3 pt-2 text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Income List</Link>
+<Link  to='/incomelist' className='w-32  pl-3 pt-2 text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Income List</Link>
 <Link to='/' className='w-64 h-10 ms-8 text-white bg-purple-700  pt-2 pl-2' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Add New Income Category </Link>
 
 </div>

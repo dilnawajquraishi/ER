@@ -30,6 +30,11 @@ import Createcredit from './Ordermanagement/Partyduelist/Createcredit';
 import Createaddbuyer from './Ordermanagement/Partyduelist/Createaddbuyer';
 import Incomelist from './Ordermanagement/Partyduelist/Incomelist';
 import Addnewincomecategory from './Ordermanagement/Partyduelist/Adddnewincomecategory';
+import Debitvoucher from './Ordermanagement/Partyduelist/Debitvoucher';
+import Createdebit from './Ordermanagement/Partyduelist/Createdebit';
+import Createaddsupplier from './Ordermanagement/Partyduelist/Createaddsupplier';
+import Expenselist from './Ordermanagement/Partyduelist/Createdebit/Expenselist';
+import Addexpensecategory from './Ordermanagement/Partyduelist/Createdebit/Addexpensecategory';
 function App() {
   return (
     <div className="App">
@@ -67,11 +72,19 @@ function App() {
          <Route path='/createaddbuyer' element={<Createaddbuyer/>} />
          <Route path='/incomelist' element={<Incomelist/>} />
          <Route path='/incomecategory' element={<Addnewincomecategory/>} />
+         <Route path='/debitvoucher' element={<Debitvoucher/>} />
+         <Route path='/createdebit' element={<Createdebit/>} />
+         <Route path='/createaddsupplier' element={<Createaddsupplier/>} />
+         <Route path='/expenselist' element={<Expenselist/>} />
+
+         <Route path='/addexpensecategory' element={<Addexpensecategory/>} />
 
 
 
 
-         Incomelist
+         
+
+
 
 
 
